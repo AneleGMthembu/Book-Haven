@@ -1,0 +1,10 @@
+pip install Flask
+pip install Flask-Login
+pip install Flask-SQLAlchemy
+pip install Werkzeug
+pip install python-dotenv
+pip install Flask-Migrate
+pip install google-cloud-storage
+pip install Flask-Mail
+pip install google-generativeai
+pip install twilio
