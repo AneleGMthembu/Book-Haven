@@ -27,7 +27,7 @@ def admin_page():
 
 @admin.route('/admin/order/<int:order_id>')
 def view_order(order_id):
-    # Fetch the order
+    # Fetch the orde
     order = TransactionModel.query.get_or_404(order_id)
     
     # Fetch the shipping address
